@@ -32,3 +32,4 @@ print(isPalindrome(testString))  // returns True
 print(isPalindrome(testString2)) // returns False
 
 // Another way is to reverse the string and then check if the reversed string equal the original string
+
