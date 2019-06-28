@@ -5,7 +5,7 @@ import Foundation
 
 //var str = "Hello, playground"
 
-//: [Next](@next)
+//: [Next](@next) 
 let testString = "abba"
 let testString2 = "anba"
 
