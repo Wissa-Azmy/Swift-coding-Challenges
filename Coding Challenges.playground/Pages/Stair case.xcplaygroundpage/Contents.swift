@@ -2,9 +2,15 @@
 
 import Foundation
 
-var str = "Hello, playground"
-
-//: [Next](@next)
+/*
+ Consider a staircase of size : n = 4
+ #
+ ##
+ ###
+ ####
+ Observe that its base and height are both equal to , and the image is drawn using # symbols and spaces. The last line is not preceded by any spaces.
+ Write a program that prints a staircase of size
+*/
 
 func createSteps(_ n: Int) {
     guard n > 0 else { return }
