@@ -2,23 +2,17 @@
 <playground version='6.0' target-platform='ios'>
     <pages>
         <page name='Reversed String'/>
-        <page name='Reversed Int'/>
         <page name='FizzBuzz'/>
         <page name='Palindrome'/>
-        <page name='MaxChar'/>
-        <page name='Array Chunking'/>
         <page name='Stair case'/>
         <page name='Pyramids Steps'/>
-        <page name='Anagrams'/>
         <page name='Sentence Capitalization'/>
         <page name='Weave Queues'/>
-        <page name='Stack'/>
-        <page name='Queue from Stacks'/>
-        <page name='Fibonacci'/>
-        <page name='Memoized Fibonacci'/>
         <page name='Vowels Count'/>
         <page name='Spiral Matrix'/>
         <page name='Text Split Multi-lines'/>
         <page name='Same Squared'/>
+        <page name='Sort Dates'/>
+        <page name='Merge Strings'/>
     </pages>
 </playground>
