@@ -20,5 +20,6 @@
         <page name='MaxChar'/>
         <page name='String chuncking '/>
         <page name='Fibonacci'/>
+        <page name='Anagrams'/>
     </pages>
 </playground>
