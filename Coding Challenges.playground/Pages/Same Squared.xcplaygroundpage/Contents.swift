@@ -74,4 +74,4 @@ let maxCharStr = "Wissa"
 
 // Print Characters ASCII Code
 print(st.unicodeScalars.map({$0.value}))
-print(maxCharStr.max())
+print(maxCharStr.max() ?? "")

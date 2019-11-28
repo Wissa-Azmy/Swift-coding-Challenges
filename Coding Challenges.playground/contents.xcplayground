@@ -14,5 +14,7 @@
         <page name='Same Squared'/>
         <page name='Sort Dates'/>
         <page name='Merge Strings'/>
+        <page name='Smallest integer not in Array'/>
+        <page name='Array to LinkedList'/>
     </pages>
 </playground>
