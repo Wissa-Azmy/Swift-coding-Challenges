@@ -16,5 +16,9 @@
         <page name='Merge Strings'/>
         <page name='Smallest integer not in Array'/>
         <page name='Array to LinkedList'/>
+        <page name='Reversed Integer'/>
+        <page name='MaxChar'/>
+        <page name='String chuncking '/>
+        <page name='Fibonacci'/>
     </pages>
 </playground>
