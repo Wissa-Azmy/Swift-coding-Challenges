@@ -45,16 +45,16 @@ func isSameSquaredFrequently(_ arr1: [Int], _ arr2: [Int]) -> Bool {
     
     // Logic
     for item in arr1 {
-        if firstArrayFrequency[item] != nil {
-            firstArrayFrequency[item] = firstArrayFrequency[item]! + 1
+        if let value = firstArrayFrequency[item] {
+            firstArrayFrequency[item] = value + 1
         } else {
             firstArrayFrequency[item] = 1
         }
     }
     
     for item in arr2 {
-        if secondArrayFrequency[item] != nil {
-            secondArrayFrequency[item] = secondArrayFrequency[item]! + 1
+        if let value = secondArrayFrequency[item] {
+            secondArrayFrequency[item] = value + 1
         } else {
             secondArrayFrequency[item] = 1
         }
@@ -75,3 +75,7 @@ let maxCharStr = "Wissa"
 // Print Characters ASCII Code
 print(st.unicodeScalars.map({$0.value}))
 print(maxCharStr.max() ?? "")
+
+
+
+

@@ -50,7 +50,7 @@ func weave(firstSource: Queue, secondSource: Queue) -> Queue {
         return firstSource
     }
     
-    var wovenQueue = Queue()
+    let wovenQueue = Queue()
     
     while firstSource.peek() != nil || secondSource.peek() != nil {
         if let firstItem = firstSource.deque() {

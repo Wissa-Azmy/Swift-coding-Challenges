@@ -1,4 +1,4 @@
-// Write a function that takes a string and returns true when the strina is a palindrome or false otherwise.
+// Write a function that takes a string and returns true when the string is a palindrome or false otherwise.
 // A palindrome is a word that doesn't changed when reversed or read backwards.
 
 import Foundation
@@ -122,3 +122,6 @@ func substitute(_ str: String) -> String {
 
 
 palindromeChecker(s: "bcba", startIndex: [1,2,1], endIndex: [3,3,1], subs: [2,0,0])
+
+
+
