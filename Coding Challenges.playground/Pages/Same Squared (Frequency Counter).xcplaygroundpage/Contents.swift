@@ -60,6 +60,19 @@ func isSameSquaredFrequently(_ arr1: [Int], _ arr2: [Int]) -> Bool {
         }
     }
     
+    print(firstArrayFrequency); print(secondArrayFrequency)
+    
+    for item in firstArrayFrequency {
+        print(item)
+        guard let squaredKeyValue = secondArrayFrequency[item.key * item.key] else {
+            return false
+        }
+        
+        if item.value != squaredKeyValue {
+            return false
+        }
+    }
+    
     print(firstArrayFrequency)
     print(secondArrayFrequency)
     
@@ -67,7 +80,7 @@ func isSameSquaredFrequently(_ arr1: [Int], _ arr2: [Int]) -> Bool {
 }
 
 isSameSquaredFrequently(arr4, arr5)
-
+isSameSquaredFrequently(arr1, arr2)
 
 let st = String(repeating: "W", count: 10)
 let maxCharStr = "Wissa"

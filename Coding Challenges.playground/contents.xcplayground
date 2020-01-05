@@ -11,7 +11,7 @@
         <page name='Vowels Count'/>
         <page name='Spiral Matrix'/>
         <page name='Text Split Multi-lines'/>
-        <page name='Same Squared'/>
+        <page name='Same Squared (Frequency Counter)'/>
         <page name='Sort Dates'/>
         <page name='Merge Strings'/>
         <page name='Smallest integer not in Array'/>

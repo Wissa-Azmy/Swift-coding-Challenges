@@ -35,10 +35,50 @@ func areAnagrams(_ firstString: String, _ secondString: String) -> Bool {
 }
 
 print(areAnagrams("", ""))              // False
-print(areAnagrams(stringA, stringB))    // True
-print(areAnagrams(stringC, stringD))    // True
-print(areAnagrams(stringE, stringF))    // False
-print(areAnagrams(stringG, stringH))    // False
+print(areAnagrams(stringA, stringB))    // stringA = "rail safety" & stringB = "fairy tales" >> True
+print(areAnagrams(stringC, stringD))    // stringC = "RAIL! SAFETY!" & stringD = "fairy tales" >> True
+print(areAnagrams(stringE, stringF))    // stringE = "Hi there" & stringF = "Bye there" >> False
+print(areAnagrams(stringG, stringH))    // stringG = "rail safoty" & stringH = "fairy tales" >> False
+
+
+
+/****************** Using The Frequency Counter Pattern ******************/
+func checkAnagrams(_ firstString: String, _ secondString: String) -> Bool {
+    let allowedChars = Set<Character>("abcdefghijklmnopqrstuvwxyz")
+    var stringA = Array(firstString.lowercased().filter {allowedChars.contains($0)})
+    let stringB = Array(secondString.lowercased().filter {allowedChars.contains($0)})
+    
+    guard !stringA.isEmpty else { return false }
+    guard stringA.count == stringB.count else { return false }
+    
+    var charMap = [Character: Int]()
+    
+    while !stringA.isEmpty {
+        if let value = charMap[stringA.first!] {
+            charMap[stringA.first!] = value + 1
+        } else {
+            charMap[stringA.first!] = 1
+        }
+        stringA.removeFirst()
+    }
+    
+    for char in stringB {
+        if let value = charMap[char] {
+            charMap[char] = value - 1
+        } else {
+            return false
+        }
+    }
+    
+    return true
+}
+
+print("**** Using The Frequency Counter Pattern ****\n")
+print(checkAnagrams("", ""))              // False
+print(checkAnagrams(stringA, stringB))    // stringA = "rail safety" & stringB = "fairy tales" >> True
+print(checkAnagrams(stringC, stringD))    // stringC = "RAIL! SAFETY!" & stringD = "fairy tales" >> True
+print(checkAnagrams(stringE, stringF))    // stringE = "Hi there" & stringF = "Bye there" >> False
+print(checkAnagrams(stringG, stringH))    // stringG = "rail safoty" & stringH = "fairy tales" >> False
 
 
 
