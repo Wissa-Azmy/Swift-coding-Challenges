@@ -8,8 +8,9 @@ import Foundation
  ##
  ###
  ####
- Observe that its base and height are both equal to , and the image is drawn using # symbols and spaces. The last line is not preceded by any spaces.
- Write a program that prints a staircase of size
+ Observe that its base and height are both equal to n, and the image is drawn using # symbols and spaces.
+ The last line is not preceded by any spaces.
+ Write a program that prints a staircase of size n
 */
 
 func createSteps(_ n: Int) {
@@ -29,7 +30,6 @@ createSteps(5)
 
 
 func createStepsRecursively(_ n: Int, _ row: Int = 0, _ stairs: String = "") {
-
     guard n != row else { return }
     var newStairs = stairs
     

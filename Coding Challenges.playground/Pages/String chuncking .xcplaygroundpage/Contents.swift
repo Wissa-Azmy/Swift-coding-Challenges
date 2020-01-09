@@ -16,13 +16,12 @@ let index = greeting.index(greeting.startIndex, offsetBy: 7)
 greeting[index]
 // a
 
-// ttempting to access an index outside of a string’s range will trigger a runtime error.
+// Attempting to access an index outside of a string’s range will trigger a runtime error.
 greeting[greeting.endIndex] // Error
 greeting.index(after: greeting.endIndex) // Error
 
 
 // Inserting and Removing
-
 var welcome = "hello"
 welcome.insert("!", at: welcome.endIndex)
 // welcome now equals "hello!"
@@ -30,7 +29,13 @@ welcome.insert("!", at: welcome.endIndex)
 welcome.insert(contentsOf: " there", at: welcome.index(before: welcome.endIndex))
 // welcome now equals "hello there!"
 
+
+//****** Get alphanumeric characters only from a string ******//
 func removeSpecialCharsFrom(text: String) -> String {
-    let okayChars = Set("abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLKMNOPQRSTUVWXYZ1234567890+-=().!_")
+    let okayChars = Set("abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLKMNOPQRSTUVWXYZ 1234567890 +-=().!_")
     return text.filter {okayChars.contains($0) }
 }
+
+let testStr = "12Wissa@.Azmy!"
+let alphaString = testStr.components(separatedBy: CharacterSet.alphanumerics.inverted).joined().lowercased()
+print(alphaString)

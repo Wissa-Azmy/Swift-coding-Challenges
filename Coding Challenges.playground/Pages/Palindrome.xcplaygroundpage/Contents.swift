@@ -59,7 +59,7 @@ func palindromeChecker(s: String, startIndex: [Int], endIndex: [Int], subs: [Int
         let subString = s[range]
         var stringToCheck = String(subString)
         
-        if isPalindrome(stringToCheck) { result = result + "1"; continue}
+        if isPalindrome(stringToCheck) { result = result + "1"; continue }
 
         if subs[index] > 0 {
             for _ in 0..<subs[index] {
@@ -78,17 +78,12 @@ func palindromeChecker(s: String, startIndex: [Int], endIndex: [Int], subs: [Int
 func substitute(_ str: String) -> String {
     let str2 = Array(str)
     var newString = ""
-    guard str.count > 2 else {
-        return "\(str2[0])\(str2[0])"
-    }
-    if str.count == 3 {
-        return "\(str2[0])\(str2[1])\(str2[0])"
-    }
+    guard str.count > 2 else { return "\(str2[0])\(str2[0])" }
+    if str.count == 3 { return "\(str2[0])\(str2[1])\(str2[0])" }
 
     var startIndex = 0
     var endIndex = 1
     let midIndex = str2.count / 2
-    
     
     while startIndex < midIndex {
         if str2[startIndex] != str2[str2.count - endIndex] {

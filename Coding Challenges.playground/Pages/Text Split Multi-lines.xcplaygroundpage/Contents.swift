@@ -10,10 +10,10 @@ import Foundation
 let shorterTestData = "The quick brown fox jumped over the lazy dog."
 
 let shorterTestOutput = """
-The quick\n
-brown fox\n
-jumped\n
-over the\n
+The quick
+brown fox
+jumped
+over the
 lazy dog.
 """
 
@@ -46,7 +46,7 @@ func wrapText(_ text: String) -> String {
     var newLine = ""
     
     for word in words {
-        if newLine.count + (1 + word.count) <= 10 {
+        if newLine.count + 1 + word.count <= 10 { // 1 is for the space between the two words
             if newLine.isEmpty {
                 newLine = "\(word)"
             } else {

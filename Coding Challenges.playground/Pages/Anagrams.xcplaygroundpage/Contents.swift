@@ -80,9 +80,3 @@ print(checkAnagrams(stringC, stringD))    // stringC = "RAIL! SAFETY!" & stringD
 print(checkAnagrams(stringE, stringF))    // stringE = "Hi there" & stringF = "Bye there" >> False
 print(checkAnagrams(stringG, stringH))    // stringG = "rail safoty" & stringH = "fairy tales" >> False
 
-
-
-//****** Get alphanumeric characters only from a string ******//
-let testStr = "12Wissa@.Azmy!"
-let alphaString = testStr.components(separatedBy: CharacterSet.alphanumerics.inverted).joined().lowercased()
-print(alphaString)

@@ -8,8 +8,8 @@ var str = "Hello, playground"
 var charCounts = [Character: Int]()
 
 for char in str {
-    if let charItem = charCounts[char] {
-        charCounts[char] = charCounts[char]! + 1
+    if let charCount = charCounts[char] {
+        charCounts[char] = charCount + 1
     } else {
         charCounts[char] = 1
     }

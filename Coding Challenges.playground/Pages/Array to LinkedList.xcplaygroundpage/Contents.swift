@@ -7,7 +7,6 @@ var str = "Array to Linked List and return the count of the list"
 var a = [1, 4, -1, 3, 2]
 
 class Node {
-    
     var value: Int
     var next: Node?
     
@@ -18,7 +17,6 @@ class Node {
 }
 
 class LinkedList {
-    
     var head: Node?
     
     init(head: Node?) {
@@ -26,14 +24,13 @@ class LinkedList {
     }
     
     func append(_ node: Node) {
-        
         guard head != nil else {
             head = node
             return
         }
         
         var current = head
-        while let _ = current?.next {
+        while current?.next != nil {
             current = current?.next
         }
         current?.next = node
@@ -45,8 +42,8 @@ class LinkedList {
         guard head != nil  else {
             return 0
         }
-        count = 1
         
+        count = 1
         var node = head
         while node?.value != -1 {
             count += 1

@@ -21,5 +21,6 @@
         <page name='String chuncking '/>
         <page name='Fibonacci'/>
         <page name='Anagrams'/>
+        <page name='Max SUM'/>
     </pages>
 </playground>

@@ -22,7 +22,7 @@ public func solution(_ A : inout [Int]) -> Int {
     
     for (key, number) in sortedArray.enumerated() {
         currentNumber = number
-        if currentNumber < 0 { continue }
+        guard currentNumber > 0 else { continue }
         
         if key + 1 < sortedArray.count {
             let nextNumber = sortedArray[key + 1]

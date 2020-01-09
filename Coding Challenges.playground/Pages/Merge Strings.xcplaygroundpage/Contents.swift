@@ -16,14 +16,11 @@ func mergeStrings(a: String, b: String) -> String {
         newString += String(character)
         if index < shortString.count {
             let subIndex = shortString.index(shortString.startIndex, offsetBy: index)
-            for shortStringCharacter in shortString[subIndex...]{
-                newString += String(shortStringCharacter)
-                index += 1
-                break
-            }
+            newString += String(shortString[subIndex...].first!)
+            index += 1
         }
-        
     }
+    
     return newString
 }
 
