@@ -5,10 +5,10 @@ import Foundation
 let intArray = [2, 6, 9, 2, 1, 8, 5, 6, 3]
 
 func maxSum(ofSubArrayWithLengtn arrayLength: Int, inArray array: [Int]) -> Int? {
-    guard array.count > num else { return nil }
+    guard array.count > arrayLength else { return nil }
     var maxSum = Int.min
     
-    for index in 0..< array.count - m + 1 {
+    for index in 0 ..< array.count - arrayLength + 1 {
         var temp = 0
         for secondIndex in 0 ..< array.count {
             temp += array[index + secondIndex]
