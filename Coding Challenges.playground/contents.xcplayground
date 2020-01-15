@@ -22,5 +22,10 @@
         <page name='Fibonacci'/>
         <page name='Anagrams'/>
         <page name='Max SUM'/>
+        <page name='HR Challenge 1'/>
+        <page name='HR Polygons'/>
+        <page name='HR Delta Encoder'/>
+        <page name='HR Round'/>
+        <page name='Sum Zero (Multiple Pointers)'/>
     </pages>
 </playground>
