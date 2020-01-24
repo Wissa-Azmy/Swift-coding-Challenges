@@ -27,5 +27,6 @@
         <page name='HR Delta Encoder'/>
         <page name='HR Round'/>
         <page name='Sum Zero (Multiple Pointers)'/>
+        <page name='Count Unique Values (Multiple Pointers)'/>
     </pages>
 </playground>
