@@ -21,12 +21,13 @@
         <page name='String chuncking '/>
         <page name='Fibonacci'/>
         <page name='Anagrams'/>
-        <page name='Max SUM'/>
+        <page name='Max SUM (Sliding Window)'/>
         <page name='HR Challenge 1'/>
         <page name='HR Polygons'/>
         <page name='HR Delta Encoder'/>
         <page name='HR Round'/>
         <page name='Sum Zero (Multiple Pointers)'/>
-        <page name='Count Unique Values (Multiple Pointers)'/>
+        <page name='Unique Values (Multiple Pointers)'/>
+        <page name='String Search'/>
     </pages>
 </playground>
