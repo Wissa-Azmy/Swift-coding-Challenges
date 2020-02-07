@@ -13,6 +13,26 @@ Coding Interview challenges in SWIFT ⌘
 These Swift code challenges cover important concepts for any coding interview. The solutions are all in Swift 5.
 
 ## Challenges
+<table>
+    <caption>Council budget (in £) 2018</caption>
+    <thead>
+        <tr>
+            <th scope="col">Items</th>
+            <th scope="col">Expenditure</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Donuts</th>
+            <td>3,000</td>
+        </tr>
+        <tr>
+            <th scope="row">Stationery</th>
+            <td>18,000</td>
+        </tr>
+    </tbody>
+</table>
+
 
 | No. | Challenge
 | ------------- | -------------
