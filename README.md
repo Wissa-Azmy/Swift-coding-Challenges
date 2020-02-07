@@ -1,6 +1,14 @@
 # Swift-coding-Challenges
-![](art/swift.png?raw=true)
 Coding Interview challenges in SWIFT ⌘
+
+<p align="center">
+    ![](art/swift.png?raw=true)
+</p>
+
+<p align="center">
+    <img src="https://img.shields.io/badge/iOS-12.0+-blue.svg" />
+    <img src="https://img.shields.io/badge/Swift-5.0-brightgreen.svg" />
+</p>
 
 These Swift code challenges cover important concepts for any coding interview. The solutions are all in Swift 3 and Swift 4.
 
