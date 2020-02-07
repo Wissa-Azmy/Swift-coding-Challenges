@@ -16,7 +16,7 @@ These Swift code challenges cover important concepts for any coding interview. T
 
 | No. | Challenge
 | ------------- | -------------
-| 1. | [Anagrams](Coding\ Challenges.playground/Pages/Anagrams.xcplaygroundpage/Contents.swift)
+| 1. | [Anagrams](Coding%20Challenges.playground/Pages/Anagrams.xcplaygroundpage/Contents.swift)
 | 2. | [Is the string a palindrome?](challenges/02_palindrome.swift)
 | 3. | [Do two strings contain the same characters?](challenges/03_sameCharacters.swift)
 | 4. | [Does one String contain another String?](challenges/04_contains.swift)
