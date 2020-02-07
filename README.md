@@ -10,13 +10,13 @@ Coding Interview challenges in SWIFT ⌘
     <img src="https://img.shields.io/badge/Swift-5.0-brightgreen.svg" />
 </p>
 
-These Swift code challenges cover important concepts for any coding interview. The solutions are all in Swift 3 and Swift 4.
+These Swift code challenges cover important concepts for any coding interview. The solutions are all in Swift 5.
 
 ## Strings
 
 | No. | Challenge
 | ------------- | -------------
-| 1. | [Are the letters unique?](challenges/01_unique.swift)
+| 1. | [Anagrams](Coding\ Challenges.playground/Pages/Anagrams.xcplaygroundpage/Contents.swift)
 | 2. | [Is the string a palindrome?](challenges/02_palindrome.swift)
 | 3. | [Do two strings contain the same characters?](challenges/03_sameCharacters.swift)
 | 4. | [Does one String contain another String?](challenges/04_contains.swift)
