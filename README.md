@@ -14,22 +14,49 @@ These Swift code challenges cover important concepts for any coding interview. T
 
 ## Challenges
 <table>
-    <caption>Council budget (in £) 2018</caption>
     <thead>
         <tr>
-            <th scope="col">Items</th>
-            <th scope="col">Expenditure</th>
+            <th scope="col">
+                | No. | Challenge
+                | ------------- | -------------
+                | 1. | [Anagrams](Coding%20Challenges.playground/Pages/Anagrams.xcplaygroundpage/Contents.swift)
+                | 2. | [Is the string a palindrome?](Coding%20Challenges.playground/Pages/Palindrome.xcplaygroundpage/Contents.swift)
+                | 3. | [FizzBuzz](Coding%20Challenges.playground/Pages/FizzBuzz.xcplaygroundpage/Contents.swift)
+                | 4. | [Reversed String](Coding%20Challenges.playground/Pages/Reversed%20String.xcplaygroundpage/Contents.swift)
+                | 5. | [Stair case](Coding%20Challenges.playground/Pages/Stair%20case.xcplaygroundpage/Contents.swift)
+                | 6. | [Pyramids Steps](Coding%20Challenges.playground/Pages/Pyramids%20Steps.xcplaygroundpage/Contents.swift)
+                | 7. | [Sentence Capitalization](Coding%20Challenges.playground/Pages/Sentence%20Capitalization.xcplaygroundpage/Contents.swift)
+                | 8. | [Weave Queues](Coding%20Challenges.playground/Pages/Weave%20Queues.xcplaygroundpage/Contents.swift)
+                | 9. | [Vowels Count](Coding%20Challenges.playground/Pages/Vowels%20Count.xcplaygroundpage/Contents.swift)
+                | 10. | [Spiral Matrix](Coding%20Challenges.playground/Pages/Spiral%20Matrix.xcplaygroundpage/Contents.swift)
+                | 11. | [Text split to multilines](Coding%20Challenges.playground/Pages/Text%20Split%20Multi-lines.xcplaygroundpage/Contents.swift)
+            </th>
+            <th scope="col">
+                | No. | Challenge
+                | ------------- | -------------
+                | 1. | [Anagrams](Coding%20Challenges.playground/Pages/Anagrams.xcplaygroundpage/Contents.swift)
+                | 2. | [Is the string a palindrome?](Coding%20Challenges.playground/Pages/Palindrome.xcplaygroundpage/Contents.swift)
+                | 3. | [FizzBuzz](Coding%20Challenges.playground/Pages/FizzBuzz.xcplaygroundpage/Contents.swift)
+                | 4. | [Reversed String](Coding%20Challenges.playground/Pages/Reversed%20String.xcplaygroundpage/Contents.swift)
+                | 5. | [Stair case](Coding%20Challenges.playground/Pages/Stair%20case.xcplaygroundpage/Contents.swift)
+                | 6. | [Pyramids Steps](Coding%20Challenges.playground/Pages/Pyramids%20Steps.xcplaygroundpage/Contents.swift)
+                | 7. | [Sentence Capitalization](Coding%20Challenges.playground/Pages/Sentence%20Capitalization.xcplaygroundpage/Contents.swift)
+                | 8. | [Weave Queues](Coding%20Challenges.playground/Pages/Weave%20Queues.xcplaygroundpage/Contents.swift)
+                | 9. | [Vowels Count](Coding%20Challenges.playground/Pages/Vowels%20Count.xcplaygroundpage/Contents.swift)
+                | 10. | [Spiral Matrix](Coding%20Challenges.playground/Pages/Spiral%20Matrix.xcplaygroundpage/Contents.swift)
+                | 11. | [Text split to multilines](Coding%20Challenges.playground/Pages/Text%20Split%20Multi-lines.xcplaygroundpage/Contents.swift)
+            </th>
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <!-- <tr>
             <th scope="row">Donuts</th>
             <td>3,000</td>
         </tr>
         <tr>
             <th scope="row">Stationery</th>
             <td>18,000</td>
-        </tr>
+        </tr> -->
     </tbody>
 </table>
 
