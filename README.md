@@ -2,7 +2,8 @@
 Coding Interview challenges in SWIFT ⌘
 
 <p align="center">
-    ![](art/swift.png?raw=true)
+    #![](art/swift.png?raw=true)
+<img src="art/swift.png" alt="Swift logo" />
 </p>
 
 <p align="center">
